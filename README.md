@@ -6,11 +6,11 @@ The Student Portfolio Microservice aims to provide a platform where students can
 
 ## Frontend: A client-side application (e.g., React, Angular, Vue.js) responsible for the user interface and interactions.
 
-    Frontend: A client-side application (e.g., React, Angular, Vue.js) responsible for the user interface and interactions.
+    Frontend: A client-side application (js and html) responsible for the user interface and interactions.
 
-    Backend: A server-side application (e.g., Node.js with Express, Python with Flask/Django, Java with Spring Boot) that handles business logic, API requests, and interacts with the database.
+    Backend: A server-side application (Python with Flask) that handles business logic, API requests, and interacts with the database.
 
-    Transactions: A service specifically for managing and processing all financial transactions related to student portfolios, such as payments for premium features or certifications.
+    Transactions: Node.js with Express, A service specifically for managing and processing all financial transactions related to student portfolios, such as payments for premium features or certifications.
 
     Nginx: Serves as the entry point for all incoming HTTP requests. It acts as a reverse proxy, directing requests to either the frontend static files or proxying API calls to the backend service.
 
@@ -36,11 +36,11 @@ The Student Portfolio Microservice aims to provide a platform where students can
                                 | (Payment Processing)  |
                                 +-----------------------+
 ## Technologies Used
-    Frontend: [Specify your frontend framework/library, e.g., React, Angular, Vue.js, or just HTML/CSS/JS]
+    Frontend: [HTML/CSS/JS]
 
-    Backend: [Specify your backend language/framework, e.g., Node.js/Express, Python/Flask, Java/Spring Boot]
+    Backend: [Python/Flask]
 
-    Transactions: [Specify the technology for the new transactions microservice, e.g., a dedicated microservice using Stripe, PayPal, or another payment gateway.]
+    Transactions: [Node.js/Express]
 
     Database: MongoDB
 
